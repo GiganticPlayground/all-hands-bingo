@@ -25,4 +25,4 @@ Spice up your All-Hands meeting with our All-Hands Bingo—because buzzwords sho
 
 ## Credits
 
-Created using OpenAI GPT4o. This entire project was written by a GPT with prompting and copy-pasting by the author. 
+Created using OpenAI GPT4o. This entire project was written by a GPT with prompting and copy-pasting by the author. [See the chat transcript here](./chat-Digital%20Agency%20All%20Hands%20Bingo.pdf).
