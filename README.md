@@ -23,6 +23,10 @@ Spice up your All-Hands meeting with our All-Hands Bingo—because buzzwords sho
    - Have small prizes for the winners to add an extra layer of motivation.
    - Keep the game light-hearted and enjoy the meeting with a touch of humor.
 
+## Play Now
+
+[Click here to play.](https://giganticplayground.github.io/all-hands-bingo/)
+
 ## Credits
 
 Created using OpenAI GPT4o. This entire project was written by a GPT with prompting and copy-pasting by the author. [See the chat transcript here](./chat-Digital%20Agency%20All%20Hands%20Bingo.pdf).
