@@ -1,0 +1,94 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f3;
+}
+.bingo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.header {
+    position: relative; /* Relative to allow absolute positioning of the logo */
+    width: 100%;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the header */
+}
+.header a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px; /* Adjust as needed for spacing */
+}
+h1 {
+    margin: 0; /* Remove default margin */
+    line-height: 100px; /* Vertically center the title (same as logo height) */
+}
+.bingo-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px; /* Ensure this is the same value as above */
+    width: 100%;
+    margin-top: 20px;
+}
+.bingo-cell {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--unselectedColor, #f0f0f0);
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.bingo-cell div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bingo-cell.selected {
+    background-color: var(--selectedColor, #90EE90);
+}
+.bingo-cell.win {
+    background-color: red !important;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.2s;
+}
+button:hover {
+    background-color: #005bb5;
+}
+button:focus {
+    background-color: #005bb5;
+}
